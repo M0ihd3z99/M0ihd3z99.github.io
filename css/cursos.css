@@ -1,0 +1,88 @@
+.caja_arriba_izquierda{
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 80px;
+}
+
+.caja_arriba_izquierda img {
+    width: 100%;
+    float: left;
+    padding-left: 50px;
+}
+
+.caja_arriba_derecha{
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 80px;
+}
+
+.caja_arriba_derecha .titulo_pagina {
+    float: right;
+    margin-right: 550px;
+    margin-top: 60px;
+}
+
+.caja_arriba_derecha h3 {
+    float: right;
+    margin-top: 8px;
+    margin-right: 765px;
+}
+
+.caja_arriba_derecha .texto_estilo2 {
+    float: right;
+    width: 85%;
+    margin-top: 30px;
+}
+
+.caja_arriba_derecha .boton {
+    float: right;
+    width: 300px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+/* caja de abajo con su imagen, texto y botón */
+
+.caja_abajo_izquierda{
+    float: right;
+    width: 50%;
+}
+
+.caja_abajo_izquierda img {
+    width: 100%;
+    float: right;
+    padding-right: 50px;
+}
+
+.caja_abajo_derecha{
+    float: left;
+    width: 50%;
+}
+
+.caja_abajo_derecha .titulo_pagina {
+    float: left;
+    margin-top: 41px;
+    margin-left: 55px;
+}
+
+.caja_abajo_derecha h3 {
+   margin-top: 120px;
+   margin-left: 67px;
+    
+}
+
+.caja_abajo_derecha .texto_estilo2 {
+    float: left;
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 30px; 
+}
+
+.caja_abajo_derecha .boton {
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-left: 500px;
+}

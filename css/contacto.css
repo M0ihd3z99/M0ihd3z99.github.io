@@ -1,0 +1,144 @@
+.caja_izquierda {
+    width: 50%;
+    float: left;
+    margin-left: 60px;
+}
+
+.caja_derecha {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+}
+
+.caja_izquierda .titulo_pagina {
+    font-style: normal;
+    word-spacing: normal;
+    float: left;
+    margin-right: 20%;
+    margin-left: 3%;
+}
+
+.caja_izquierda .texto-estilo1 a {
+    color: rgb(150, 118, 88);
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.caja_izquierda .texto-estilo1 {
+    font-size: large;
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+.caja_izquierda>.texto-estilo1 a:hover {
+    color: rgb(243, 144, 37);
+}
+
+.caja_izquierda .texto-estilo2 {
+    margin-bottom: 25px;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+
+/*aquí empieza el posicionamiento de las imagenes de redes sociales*/
+
+.twitter {
+    position: absolute;
+    width: 2%;
+    top: 670px;
+    left: 578px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
+
+.twitter:hover {
+    transform: scale(1.2); 
+  transition: all 0.4s ease;
+  }
+
+.whatsapp {
+    position: absolute;
+    width: 2%;
+    top: 700px;
+    left: 495px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
+
+.whatsapp:hover {
+    transform: scale(1.2); 
+  transition: all 0.4s ease;
+  }
+
+.instagram {
+    position: absolute;
+    width: 2%;
+    top: 700px;
+    left: 655px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
+
+.instagram:hover {
+    transform: scale(1.2); 
+  transition: all 0.4s ease;
+  }
+
+.telegram {
+    position: absolute;
+    width: 2%;
+    top: 750px;
+    left: 440px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
+
+.telegram:hover {
+    transform: scale(1.2); 
+  transition: all 0.4s ease;
+  }
+
+.logo_piramide {
+    position: absolute;
+    width: 10%;
+    top: 700px;
+    left: 500px;   
+}
+
+.facebook {
+    position: absolute;
+    width: 2%;
+    top: 750px;
+    left: 705px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
+
+.facebook:hover {
+    transform: scale(1.2); 
+  transition: all 0.4s ease;
+  }
+
+/* las cosas del formulario a partir de aqui */
+
+.caja_derecha .titulo_pagina{
+    text-align: left;
+    color: black;
+    word-spacing: normal;
+    font-size: x-large;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.condiciones{
+    color: rgb(150, 118, 88);
+    text-decoration: underline;
+}
+
+::placeholder{
+color: black;
+}

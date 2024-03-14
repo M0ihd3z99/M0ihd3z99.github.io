@@ -1,0 +1,68 @@
+.imagen_principal {
+    float: left;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+.caja_derecha {
+    width: 50%;
+    margin-right: 0px;
+}
+
+.caja_derecha p {
+    width: 95%;
+}
+
+.logo2 {
+    color: white;
+    height: 50px;
+    float: left;
+}
+
+.allshoes2 {
+    margin-left: 3px;
+    margin-top: 8px;
+    color: black;
+    display: flex;
+    float: left;
+}
+
+
+a .logo2:hover + .allshoes2 {
+    transition: all 0.4s ease;
+    transform: translatex(5px);
+    background-image: linear-gradient(90deg,#fda838 25%,#fc2003);
+    border: 0;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.triptico_redes {
+    margin-left: 50px;
+}
+
+.triptico_redes img {
+    height: 45px;
+    margin: -35px;
+    margin-left: 49px;
+    display: flex;
+    float: left;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+    border-radius: 100%;
+}
+
+.triptico_redes img:hover {
+    transform: scale(1.2); 
+    transition: all 0.4s ease;
+}
+
+.insta {
+    /* filter: hue-rotate(2000deg) saturate(150%); */
+    filter: grayscale();
+    filter: drop-shadow(90);
+    color: #000000;
+}
+

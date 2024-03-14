@@ -1,0 +1,73 @@
+.body{
+  position: relative;
+}
+
+.carrousel {
+  z-index: 0;
+  width: 98%;
+  height: 700px;
+  background-image: url(/images/Carroussel/Carroussel-1.webp);
+  background-size: cover;
+  background-position: 0% 100%;   
+}
+
+.carrousel_textoblanco{
+  color: transparent;
+  width: 10%;  
+  margin-left: 30px;
+  padding-top: 190px;
+  font-size: 27px;
+  z-index: 1;
+  transition: all 0.4s;
+}
+
+.carrousel_textoblanco:hover{
+  color: rgb(150, 118, 88);
+  transform: translatez(40%);
+  color:white;
+}
+
+.texto_indice{
+  margin-top: 30px;
+  margin-left: 34px;
+  width: 50%;
+  float: left;
+  color: rgb(150, 118, 88);
+ font-size: x-large;
+ text-align: justify;
+}
+
+.triptico{
+  margin-right: 174px;
+  width: 37%;
+  height: 284px;
+  display: flex;
+  float: right;
+}
+
+.triptico img{
+  margin:10px; 
+}
+
+.triptico img:hover {
+  transform: scale(1.1); 
+transition: all 0.4s ease;
+}
+
+.boton_comprar{
+  color: white;
+  margin-left:65px;
+  margin-top:50px;
+  margin-bottom: 100px;
+  float:left;
+  font-size: 25px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 100px;
+  font-weight: 650;
+  word-spacing: 4px ;
+  transition: background-color 2s ease-in-out;
+}
+.boton_comprar:hover{
+ background-color: rgb(129, 87, 47);
+}
